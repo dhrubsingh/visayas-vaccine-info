@@ -23,6 +23,8 @@ function createPage() {
 
   //data for each city
   let cities = [
+
+    //negros occidental
     {
       name: "Bacolod",
       link: { vaccine: "https://docs.google.com/forms/d/e/1FAIpQLSfvvKWs1O5ewyusg4zl97JcmeC7BLxtn9DOFCd4apEnAGbS1Q/viewform?fbclid=IwAR28qG_b7IsYGFJATEAKf9q-_l3CYPA3NwVzo3bvCvTwVL-MWjpBT072YJc" },
@@ -211,6 +213,141 @@ function createPage() {
       name: "Victorias",
       link: { vaccine: "https://docs.google.com/forms/d/e/1FAIpQLSd1BjH_9VNE2W8S-8dmFbeA8c4x8eUPViKfOU0BXUcbrXOzkw/closedform" },
       other: { contact: "Form currently closed, but stay tuned to website: Victorias LGU", link: "http://victoriascity.gov.ph/first-batch-covid-vaccine-priorities-gets-2nd-dose/#respond" }
+    },
+
+    // negros oriental
+    {
+      name: "Amlan",
+      link: { vaccine: "https://docs.google.com/forms/d/e/1FAIpQLSebsulg8uwjlTnxsX5m9AFo4wITg9dI0s0hIUvMfTKwqcmFZg/viewform?fbclid=IwAR2Hhi8nWuaZdT9zvpcfVYi_Ir9SI4LotxKWZhnkUAR6SNcIarVEOdUPwvg" },
+      other: { contact: "Amlan LGU", link: "https://web.facebook.com/lguamlan/?ref=page_internal" }
+    },
+    {
+      name: "Ayungon",
+      link: { vaccine: "" },
+      other: { contact: "Ayungon LGU", link: "https://www.facebook.com/lguAyungon/" }
+    },
+    {
+      name: "Bacong",
+      link: { vaccine: "https://docs.google.com/forms/d/e/1FAIpQLSc_jnduIkHroI-dnbVdhJaifdeNPpLEYZj1XoUPfSwSVaYNSA/viewform" },
+      other: { contact: "Bacong LGU", link: "https://web.facebook.com/BacongPhilippines6216/?ref=page_internal" }
+    },
+    {
+      name: "Bais",
+      link: { vaccine: "https://docs.google.com/forms/d/e/1FAIpQLScovG4t0YvupKsVnRjUBIreTu3YH3VhXp6OTXWaILcPbIwqDw/viewform?fbclid=IwAR01ztMdYnvQSK13ZGnNRmhLtdX8mdFsadA47HS7xENwp8LvNUj4ZSFKxV8" },
+      other: { contact: "Bais LGU", link: "https://web.facebook.com/BaisPIO/posts/306805297512838" }
+    },
+    {
+      name: "Basay",
+      link: { vaccine: "" },
+      other: { contact: "Basay LGU", link: "https://web.facebook.com/Basay-Rural-Health-Unit-101982551382338/?ref=page_internal" }
+    },
+    {
+      name: "Bayawan",
+      link: { vaccine: "" },
+      other: { contact: "Bayawan LGU", link: "https://web.facebook.com/BywnCity/?_rdc=1&_rdr" }
+    },
+    {
+      name: "Bindoy",
+      link: { vaccine: "" },
+      other: { contact: "Bindoy LGU", link: "https://web.facebook.com/bindoy6209/?_rdc=1&_rdr" }
+    },
+    {
+      name: "Canlaon",
+      link: { vaccine: "" },
+      other: { contact: "Canlaon LGU", link: "http://canlaoncity.gov.ph/?pageid=1&newsid=25&category=about&whatarticle=4&wfunc=viewarticle&rightpanel=yes&titlecap=Contact%20Us" }
+    },
+    {
+      name: "Dauin",
+      link: { vaccine: "https://docs.google.com/forms/d/e/1FAIpQLScqG-8mBys-BgDd1jJALpzGb_MrHnpFGxXM9kDQhDC_NXe3Vw/viewform" },
+      other: { contact: "Dauin LGU", link: "https://web.facebook.com/Dauin-Inter-Agency-Task-Force-102767128359233/" }
+    },
+    {
+      name: "Dumaguete",
+      link: { vaccine: "https://docs.google.com/forms/d/e/1FAIpQLSeG2nDFKO48_4l0GRnnYkpZnDcbxF4nCWHkdoDVup8LYLA0Jw/viewform?fbclid=IwAR1p3Kalfy2Gik7g6Hk7Vq-33uURs3EZgItOneEgkzAGa86OxOxzdXqOAV8" },
+      other: { contact: "Form currently closed, but stay tuned to website: Victorias LGU", link: "https://dumaguetecity.gov.ph/2021/04/05/do-you-want-to-be-vaccinated-against-covid-19/" }
+    },
+    {
+      name: "Guihulngan",
+      link: { vaccine: "" },
+      other: { contact: "Guihulngan LGU", link: "https://web.facebook.com/lguguihulngancity" }
+    },
+    {
+      name: "Jimalalud",
+      link: { vaccine: "" },
+      other: { contact: "Jimalalud LGU", link: "https://jimalalud.gov.ph/" }
+    },
+    {
+      name: "La Libertad",
+      link: { vaccine: "https://docs.google.com/forms/d/e/1FAIpQLSeSqKmYaoX-O3kgTFx-X2qN04jLJ7dVyr1nAhDy5EWTWYzKkQ/viewform" },
+      other: { contact: "La Libertad LGU", link: "https://web.facebook.com/La-Libertad-Negros-Oriental-343589612389868" }
+    },
+
+    {
+      name: "Jimalalud",
+      link: { vaccine: "" },
+      other: { contact: "Jimalalud LGU", link: "https://jimalalud.gov.ph/" }
+    },
+
+    {
+      name: "Mabinay",
+      link: { vaccine: "" },
+      other: { contact: "Mabinay LGU", link: "https://web.facebook.com/Municipality-of-Mabinay-104717014542326/" }
+    },
+
+    {
+      name: "Manjuyod",
+      link: { vaccine: "" },
+      other: { contact: "Manjuyod LGU", link: "https://web.facebook.com/MunicipalityofManjuyodOfficial/?_rdc=1&_rdr" }
+    },
+
+    {
+      name: "Pamplona",
+      link: { vaccine: "" },
+      other: { contact: "Pamplona LGU", link: "https://web.facebook.com/pamplona6205/?_rdc=1&_rdr" }
+    },
+    {
+      name: "San Jose",
+      link: { vaccine: "" },
+      other: { contact: "San Jose LGU", link: "https://web.facebook.com/SanJoseFirst/" }
+    },
+    {
+      name: "Santa Catalina",
+      link: { vaccine: "" },
+      other: { contact: "Santa Catalina LGU", link: "https://www.facebook.com/Sidlak-Santa-Catalina-675197745908906" }
+    },
+    {
+      name: "Siaton",
+      link: { vaccine: "" },
+      other: { contact: "Siaton LGU", link: "https://web.facebook.com/SiatonUpdates/" }
+    },
+    {
+      name: "Sibulan",
+      link: { vaccine: "https://docs.google.com/forms/d/e/1FAIpQLSeVZgTi2SRmaKzil5PEulh5XGty6s5aFY4NHWvv5gD0M7bEjQ/viewform" },
+      other: { contact: "Sibulan LGU", link: "hhttps://www.facebook.com/Sibulanos" }
+    },
+    {
+      name: "Tanjay",
+      link: { vaccine: "" },
+      other: { contact: "Tanjay LGU", link: "https://web.facebook.com/Tanjay-City-Information-Office-102611131537775/" }
+    },
+    {
+      name: "Tayasan",
+      link: { vaccine: "" },
+      other: { contact: "Tayasan LGU", link: "https://web.facebook.com/LGUTayasan/" }
+    },
+    {
+      name: "Valencia",
+      link: { vaccine: "https://docs.google.com/forms/d/e/1FAIpQLScyclYFDRjUE29KF1Z8hndoh5jA_cKjuWtTUb-8QKgeeQomRA/viewform?fbclid=IwAR2PkJS5fYjtJEryTLj4w_AnnlFfk2eyhzpTQ4dqZVTTNdxUYvVGjm7J6Bc" },
+      other: { contact: "Valencia LGU", link: "https://web.facebook.com/LGUCityofValencia/" }
+    }, {
+      name: "Vallehermoso",
+      link: { vaccine: "https://docs.google.com/forms/d/e/1FAIpQLSfKKuoQZoC7g9vYN_TnOQCwayhPYXO4BVkLUJi7AZgLpLuzBQ/viewform" },
+      other: { contact: "Vallehermoso LGU", link: "https://web.facebook.com/RHUVallehermosoNegOr/" }
+    },
+    {
+      name: "Zamboanguita",
+      link: { vaccine: "" },
+      other: { contact: "Zamboanguita LGU", link: "https://web.facebook.com/MayorGlenson/" }
     }
   ];
 
@@ -252,7 +389,7 @@ function createPage() {
 
     else {
       details.innerHTML = `
-      <div>Currently no online vaccine registration link is available</div>
+      <div>Currently no online vaccine registration link is available. Contact LGU for potential in-person registration.</div>
       <div>${cities[i]["other"]["contact"]} <a href = ${cities[i]["other"]["link"]}>contact</a></div>
       `
     }

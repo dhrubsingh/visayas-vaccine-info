@@ -7,6 +7,11 @@ h1 {
     margin-bottom: 1em;
 }
 
+#myInput{
+    width: 80%;
+    border-radius: 1em;
+}
+
 li > .container{
     color: black;
 }

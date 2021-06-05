@@ -3,7 +3,7 @@ h1 {
     color: green;
     margin-left: 1em;
     margin-right: 1em;
-    background-color: #ffee00;
+    background-color: #f6f7ba;
 
 }
 
@@ -17,6 +17,9 @@ h1 {
 
 body{
 background-color: lightgoldenrodyellow;
+zoom: 1.5;
+-moz-transform: scale(1.5);
+-moz-transform-origin: 0 0;
 }
 
 #myInput{

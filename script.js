@@ -1,4 +1,4 @@
-function myFunction() {
+function search() {
   // Declare variables
   var input, filter, ul, li, a, i, txtValue;
   input = document.getElementById('myInput');
@@ -378,13 +378,16 @@ function createPage() {
     //create details
     details_container.setAttribute("class", "collapse");
     details_container.setAttribute("id", id);
-    details.setAttribute("class", "card card-body");
+    details.setAttribute("class", "card card-body drops");
+
+    //color changer
 
     if (cities[i]["link"]["vaccine"].length > 1) {
       details.innerHTML = `
       <div>Vaccine registration <a href = ${cities[i]["link"]["vaccine"]}>link</a></div>
       <div>${cities[i]["other"]["contact"]} <a href = ${cities[i]["other"]["link"]}>contact</a></div>
       `
+      details.setAttribute("style", "background-color: #a9ff94");
     }
 
     else {
@@ -392,6 +395,7 @@ function createPage() {
       <div>Currently no online vaccine registration link is available. Contact LGU for potential in-person registration.</div>
       <div>${cities[i]["other"]["contact"]} <a href = ${cities[i]["other"]["link"]}>contact</a></div>
       `
+      details.setAttribute("style", "background-color: #ffcbab");
     }
 
 

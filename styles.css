@@ -1,19 +1,48 @@
 h1 {
     text-align: center;
+    color: green;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: #ffee00;
+
 }
+
+
+
 .search{
     display: flex;
     justify-content: center;
     margin-bottom: 1em;
 }
 
+body{
+background-color: lightgoldenrodyellow;
+}
+
 #myInput{
-    width: 80%;
-    border-radius: 1em;
+    width: 60%;
+    outline: none;
+    border-radius: 20px;
+    border:1px solid black;
+    padding: 0.75em;
 }
 
-li > .container{
-    color: black;
+#myInput:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
 }
 
-  
+#myInput:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+  }
+
+.drops{
+    margin-bottom: 1em;
+}
+
+#intro{
+    margin-right: 2em;
+    margin-left: 2em;
+    background-color: #e0f4ff;
+    margin-bottom: 1em;
+}

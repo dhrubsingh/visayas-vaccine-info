@@ -9,6 +9,7 @@ function search() {
   // Loop through all list items, and hide those who don't match the search query
   for (i = 0; i < li.length; i++) {
     a = li[i].getElementsByTagName("a")[0];
+    hideCollapse();
     txtValue = a.textContent || a.innerText;
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
       li[i].style.display = "";
@@ -17,6 +18,16 @@ function search() {
     }
   }
 }
+
+function hideCollapse() {
+  elements = document.getElementsByClassName("details");
+  for (let i = 0; i < elements.length; i++) {
+    elements[i].setAttribute("class", "details collapse");
+  }
+}
+
+
+// collapse all elements while typing
 
 
 function createPage() {
@@ -376,7 +387,7 @@ function createPage() {
     entry_link.setAttribute("aria-controls", `id`);
 
     //create details
-    details_container.setAttribute("class", "collapse");
+    details_container.setAttribute("class", "collapse details");
     details_container.setAttribute("id", id);
     details.setAttribute("class", "card card-body drops");
 

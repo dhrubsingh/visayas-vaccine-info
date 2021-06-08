@@ -26,7 +26,6 @@ function hideCollapse() {
   }
 }
 
-
 // collapse all elements while typing
 
 
@@ -69,7 +68,7 @@ function createPage() {
     {
       name: "Bago",
       link: { vaccine: "" },
-      other: { contact: "Vaccine registration in-person at Bago LGU", link: "https://www.facebook.com/cadizcityhealthoffice" }
+      other: { contact: "Bago LGU", link: "https://www.facebook.com/cadizcityhealthoffice" }
     },
 
     {
@@ -131,7 +130,7 @@ function createPage() {
     {
       name: "La Carlota",
       link: { vaccine: "" },
-      other: { contact: "Check La Carlota LGU for perhaps in-person registration", link: "https://www.facebook.com/La-Carlota-City-Health-Office-109444283784014/" }
+      other: { contact: "La Carlota LGU", link: "https://www.facebook.com/La-Carlota-City-Health-Office-109444283784014/" }
     },
     {
       name: "La Castellana",
@@ -151,7 +150,7 @@ function createPage() {
     {
       name: "Murcia",
       link: { vaccine: "https://docs.google.com/forms/d/e/1FAIpQLSfvvKWs1O5ewyusg4zl97JcmeC7BLxtn9DOFCd4apEnAGbS1Q/viewform?fbclid=IwAR28qG_b7IsYGFJATEAKf9q-_l3CYPA3NwVzo3bvCvTwVL-MWjpBT072YJc" },
-      other: { contact: "Mayor Gerry M. Rojas", link: "https://www.facebook.com/GerryMRojas" }
+      other: { contact: "Murcia LGU", link: "https://www.facebook.com/GerryMRojas" }
     },
     {
       name: "Pontevedra",
@@ -173,7 +172,7 @@ function createPage() {
     {
       name: "Pulupandan",
       link: { vaccine: "" },
-      other: { contact: "Contact Health Care Workers in your Barangay: Pulupandan LGU", link: "https://www.facebook.com/MHOPulupandan/posts/2923097544521855" }
+      other: { contact: "Pulupandan LGU", link: "https://www.facebook.com/MHOPulupandan/posts/2923097544521855" }
     },
 
     {
@@ -185,7 +184,7 @@ function createPage() {
     {
       name: "Salvador Benedicto",
       link: { vaccine: "" },
-      other: { contact: "Registration in-person: Don Salvador Benedicto LGU", link: "https://www.facebook.com/DonSalvadorBenedictoLGU/" }
+      other: { contact: "Don Salvador Benedicto LGU", link: "https://www.facebook.com/DonSalvadorBenedictoLGU/" }
     },
 
     {
@@ -275,7 +274,7 @@ function createPage() {
     {
       name: "Dumaguete",
       link: { vaccine: "https://docs.google.com/forms/d/e/1FAIpQLSeG2nDFKO48_4l0GRnnYkpZnDcbxF4nCWHkdoDVup8LYLA0Jw/viewform?fbclid=IwAR1p3Kalfy2Gik7g6Hk7Vq-33uURs3EZgItOneEgkzAGa86OxOxzdXqOAV8" },
-      other: { contact: "Form currently closed, but stay tuned to website: Victorias LGU", link: "https://dumaguetecity.gov.ph/2021/04/05/do-you-want-to-be-vaccinated-against-covid-19/" }
+      other: { contact: "Dumaguete LGU", link: "https://dumaguetecity.gov.ph/2021/04/05/do-you-want-to-be-vaccinated-against-covid-19/" }
     },
     {
       name: "Guihulngan",

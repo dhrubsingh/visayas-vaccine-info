@@ -4,10 +4,9 @@ h1 {
     margin-left: 1em;
     margin-right: 1em;
     background-color: #f6f7ba;
+    margin-bottom: 0.3em;
 
 }
-
-
 
 .search{
     display: flex;
@@ -46,4 +45,5 @@ zoom: 1.5;
     margin-left: 2em;
     background-color: #e0f4ff;
     margin-bottom: 1em;
+    font-size:medium;
 }

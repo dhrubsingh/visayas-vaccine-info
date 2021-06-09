@@ -394,16 +394,16 @@ function createPage() {
 
     if (cities[i]["link"]["vaccine"].length > 1) {
       details.innerHTML = `
-      <div>Vaccine registration <a href = ${cities[i]["link"]["vaccine"]}>link</a></div>
-      <div>${cities[i]["other"]["contact"]} <a href = ${cities[i]["other"]["link"]}>contact</a></div>
+      <div class = "inputs">Vaccine registration <a href = ${cities[i]["link"]["vaccine"]}>link</a></div>
+      <div class = "inputs">${cities[i]["other"]["contact"]} <a href = ${cities[i]["other"]["link"]}>contact</a></div>
       `
       details.setAttribute("style", "background-color: #a9ff94");
     }
 
     else {
       details.innerHTML = `
-      <div>Currently no online vaccine registration link is available. Contact LGU for potential in-person registration.</div>
-      <div>${cities[i]["other"]["contact"]} <a href = ${cities[i]["other"]["link"]}>contact</a></div>
+      <div class = "inputs">Currently no online vaccine registration link is available. Contact LGU for potential in-person registration.</div>
+      <div class = "inputs">${cities[i]["other"]["contact"]} <a href = ${cities[i]["other"]["link"]}>contact</a></div>
       `
       details.setAttribute("style", "background-color: #ffcbab");
     }

@@ -333,7 +333,7 @@ function createPage() {
     {
       name: "Sibulan",
       link: { vaccine: "https://docs.google.com/forms/d/e/1FAIpQLSeVZgTi2SRmaKzil5PEulh5XGty6s5aFY4NHWvv5gD0M7bEjQ/viewform" },
-      other: { contact: "Sibulan LGU", link: "hhttps://www.facebook.com/Sibulanos" }
+      other: { contact: "Sibulan LGU", link: "https://www.facebook.com/Sibulanos" }
     },
     {
       name: "Tanjay",

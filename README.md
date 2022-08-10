@@ -1,2 +1,3 @@
 # workingvaccineinfo
-Aggregation of COVID vaccine info for Negros Island
+Aggregation of COVID vaccine info for Visayas Region
+
